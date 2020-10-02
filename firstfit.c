@@ -45,4 +45,7 @@ int main()
       }
       printf("\n");
       return 0;
+ //All set
+ //This is Memeory Allocation Algo
+ //Efficient
 }
