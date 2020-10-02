@@ -50,3 +50,6 @@ int main()
       printf("\n");
       return 0;
 }
+
+
+// hey you can add library to make program easy
