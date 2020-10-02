@@ -1,0 +1,13 @@
+Step1. Enter the memory blocks with size.
+
+Step2. Enter the process blocks with size.
+
+Step3. Set all the memory blocks as free.
+
+Step4. Start by picking up each process
+
+Step5. Find the minimum block size that is best to assign to the current process.
+
+Step6. If the best fit memory size is found, it is allocated to the process.
+
+Step7. If the memory block and memory demand do not match, leave the process and search for another process.
