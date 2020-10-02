@@ -45,7 +45,7 @@ int main()
 		barray[parray[i]]=1;
 		lowest=10000;
 	}
-	
+	//Final output is displayed
 	printf("\nFile_no\tFile_size\tBlock_no\tBlock_size\tFragment");
 	for(i=1;i<=np && parray[i]!=0;i++)
 		printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,p[i],parray[i],b[parray[i]],fragment[i]);
