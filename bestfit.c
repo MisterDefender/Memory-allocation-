@@ -1,4 +1,6 @@
 #include<stdio.h>
+
+int addnumbers(int n);
  
 int main()
 {
@@ -51,4 +53,11 @@ int main()
 		printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,p[i],parray[i],b[parray[i]],fragment[i]);
 printf("\n");	
 return 0;
+}
+
+int addNumbers(int n) {
+    if (n != 0)
+        return n + addNumbers(n - 1);
+    else
+        return n;
 }
